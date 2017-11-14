@@ -1,0 +1,30 @@
+{
+  "name": "HappyBotIO",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nf start",
+    "build": "webpack --config ./webpack.prod.config.js --progress --colors"
+  },
+  "keywords": [],
+  "author": "Antti Onttonen <antti@onttonen.info>",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "0.1.1",
+    "cheerio": "0.20.0",
+    "foreman": "1.4.1",
+    "request": "2.72.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-core": "6.9.0",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.9.0",
+    "eslint": "2.10.2",
+    "webpack": "1.13.0",
+    "webpack-node-externals": "1.2.0"
+  },
+  "engines": {
+    "node": "6.11.2"
+  }
+}
